@@ -1,0 +1,25 @@
+.breadcrumbList {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 30px 0;
+}
+
+.breadcrumbItem {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumbLink {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+.breadcrumbLink:hover {
+    text-decoration: underline;
+}
+
+.separator {
+    margin: 0 6px;
+}
